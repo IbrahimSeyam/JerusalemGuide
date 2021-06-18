@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history_activities.Activity1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="7dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <!--
+                            android:text="أظهرت بعض التنقيبات الأثرية وجود بعض الأواني الخزفية في مدينة داود، الواقعة ضمن حدود القدس حاليًا، والتي تعود لحوالي الألفية الرابعة قبل الميلاد، أي منذ العصر النحاسي، وأظهرت اكتشافات أخرى وجود مستعمرة بشرية قامت خلال أوائل العصر البرونزي (ما بين عاميّ 3000 و2800 ق.م تقريبًا)، ويقول بعض المؤرخين أن من أسسها هم الكنعانيون الذين سكنوا فلسطين في الألف الثالث قبل الميلاد، وخلال هذه الفترة قدم إليها العرب الساميون في هجرتين كبيرتين: الأولى في بداية الألف الثالث قبل الميلاد، والثانية في بداية الألف الثاني قبل الميلاد، بينما يقول آخرون، مثل عالمة الآثار البريطانية كاتلين كينيون، أن القدس تأسست على يد قوم ساميين شماليين غربيين حوالي سنة 2600 قبل الميلاد. ورد أول ذكر لتجمع سكاني في موقع القدس في رسائل اللعنة الفرعونية من القرن الثامن عشر قبل الميلاد، ويُذكر موقع القدس فيها باسم أشمام كأحد تجمعات العدو الذي يجب لعنه كي لا يضر بالجيوش المصرية. تنص التوراة على أن المدينة تأسست على يد سام بن نوح، وعابر حفيد سام، من أسلاف النبي إبراهيم (وهو أبو الأنبياء جميعا وجدهم)، وسكنها في ذلك الوقت شعب يُعرف بشعب اليبوسيين، فسُميت المدينة يبوس تيمنًا بسكانها. ازدهرت المدينة في عهد ملكي صادق، وهو أحد ملوك اليبوسيين خلال فترة بعثة إبراهيم، واستمر الوضع كما هو إلى حين عهد يشوع، عندما دخلت المدينة في نطاق الأراضي الخاضعة لبني بنيامين، [يشوع 28/18] إلا أنها استمرت مأهولة باليبوسيين بعد أن لم يتمكن بنو بنيامين من طردهم. سيطر الملك والنبي داود على المدينة حوالي سنة 1000 ق.م، بعد أن احتلها من اليبوسيين، وجعل منها عاصمة لمملكته. أظهرت أعمال التنقيب مؤخرًا وجود أساسات حجرية ضخمة في وسط القدس، قال الإسرائيليون بأنها بقايا هيكل داود، وقد توقفت أعمال التنقيب بعد أن صرّح الخبراء باعتقادهم هذا، إلى حين أن يتم التصديق على هذا الأمر من قبل مفسري التوراة."
+            -->
+
+            <TextView
+                android:id="@+id/img_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#FF0000" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="300dp"
+                android:layout_height="390dp"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".masajed_activities.OldActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintDimensionRatio="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="1.2"
+                app:srcCompat="@drawable/old" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:fontFamily="@font/lateef_regular"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:text="مصلى الأقصى القديم
+هذا المصلى جزء من المسجد الأقصى المبارك، ويقع تحت الرواق الأوسط للجامع القبلي، ويتم الدخول إليه نزولا عبر درج حجري يوجد أمام مدخل الجامع القِبْلي.
+
+يتألف المصلى من رواقين كبيرين اتجاههما من الجنوب للشمال، تحدوهما أعمدة حجرية ضخمة تحمل سقفه الذي يقوم جزء من الجامع القِبْلي عليه. وهو يمثل جزءا من التسوية الجنوبية التي أقيمت فوق الأرضية الأصلية المنحدرة للمسجد الأقصى المبارك، حتى يتسنى البناء على سطح مستوٍ. ولكن الهدف الأصلي من بنائه هو أن يكون ممرا للأمراء الأمويين القادمين من الباب المزدوج الذي يطل على القصور الأموية الواقعة جنوب المسجد الأقصى المبارك إلى الجامع القِبْلي مباشرة.
+
+بقى المكان لقرون مهجورا ومليئا بالأتربة والأحجار، إلى أن أعيد افتتاحه للصلاة عام 1419هـ/1998م على يد مؤسسة الأقصى لإعمار المقدسات ولجنة التراث الإسلامي المقدسية مع تزايد أعداد شادي الرحال إلى المسجد الأقصى المبارك. تبلغ مساحته نحو دونم ونصف الدونم، (الدونم = ألف متر مربع) ولكن الجزء المخصص للصلاة فيه صغير ولا يتسع إلا لنحو خمسمائة مصل."
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

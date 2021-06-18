@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jerusalem">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jerusalem">
+        <activity android:name=".masajed_activities.OldActivity"></activity>
+        <activity android:name=".masajed_activities.AlqiblyActivity" />
+        <activity android:name=".aqsa_activities.DomesActivity" />
+        <activity android:name=".aqsa_activities.BawaikActivity" />
+        <activity android:name=".aqsa_activities.GatesActivity" />
+        <activity android:name=".aqsa_activities.MaathenActivity" />
+        <activity android:name=".aqsa_activities.MasajedActivity" />
+        <activity android:name=".history_activities.Activity9" />
+        <activity android:name=".history_activities.Activity8" />
+        <activity android:name=".history_activities.Activity7" />
+        <activity android:name=".history_activities.Activity6" />
+        <activity android:name=".history_activities.Activity5" />
+        <activity android:name=".history_activities.Activity4" />
+        <activity android:name=".history_activities.Activity3" />
+        <activity android:name=".history_activities.Activity2" />
+        <activity android:name=".history_activities.Activity1" />
+        <activity android:name=".AqsaMosqueActivity" />
+        <activity android:name=".AswarActivity" />
+        <activity android:name=".TourVideoActivity" />
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".TourActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".QudsActivity" />
+        <activity android:name=".HistoryActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9498887541086703~7674544843"/>
+
+        <activity android:name=".AqsaActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

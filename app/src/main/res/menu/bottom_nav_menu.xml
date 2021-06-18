@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_main"
+        android:enabled="true"
+        android:icon="@drawable/ic_main"
+        android:title="الرئيسية" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="البحث" />
+
+<!--    <item
+        android:id="@+id/flap"
+        android:title="" />-->
+
+    <item
+        android:id="@+id/nav_location"
+        android:enabled="true"
+        android:icon="@drawable/ic_location"
+        android:title="الموقع" />
+
+
+    <item
+        android:id="@+id/nav_photos360"
+        android:enabled="true"
+        android:icon="@drawable/ic_photos360"
+        android:title="صور 360" />
+
+</menu>
